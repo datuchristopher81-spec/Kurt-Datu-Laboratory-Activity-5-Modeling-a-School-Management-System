@@ -1,14 +1,11 @@
 public class TeacherStudentAssignment {
     public static void main(String[] args) {
 
-     student with instance method to display student
         Student student1 = new Student("Ana Santos", 19, "Female", "S1023");
         student1.displayStudent();
 
         Course course1 = new Course("CS101", "Programming Fundamentals");
         Course course2 = new Course("CS102", "Object-Oriented Programming");
-
-       instance method to display it
         Teacher teacher1 = new Teacher("Mr. Dela Cruz", 45, "Male", "Computer Studies", course1, course2);
         teacher1.displayTeacher();
     }
